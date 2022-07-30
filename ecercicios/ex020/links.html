@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /* #=id
+        .=class
+        : = pseudo-classe
+        ::= pseudo-elemento
+        > = filho 
+        */
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        a:visited{
+            color: rgb(2, 2, 2);
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        .especial::after{
+            content: '(link)';
+            color: lightgray;
+            background-color: aqua;
+        }
+        .especial::before{
+            content: '-->';
+            columns: lightgray;
+            background-color: aqua;
+        }
+
+        
+        
+        
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank"rel="next">repositorio no github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&ab_channel=CursoemV%C3%ADdeo"target="_blank"rel="next"class="especial">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/"target="_blank"rel="next">site do curso em video</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+       
+        body{
+            margin: auto;
+            padding: 20px;
+            text-align: justify;
+            background-color: lightgray;
+        }
+        header{
+            background-color:white;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); 
+            height: 100px;
+        }
+        .menu{
+            font-size: 3em;
+            padding: 10px;
+           
+        }
+        nav {
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+            background-color: gray;
+            width: 700px;
+            margin: auto;
+           
+        }
+        nav:hover > a{
+            color: red;
+            text-decoration: none;
+        }
+        main{
+         background-color: white;
+         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.407);
+         border-radius: 20px;
+         padding: 20px;
+        
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            box-shadow: 2px 2px 2px 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="menu">Menu</span>
+     <nav>
+     <a href="#">link</a>
+     <a href="#">link</a>
+     <a href="#">link</a>
+     <a href="#">link</a>
+     <a href="#">link</a>
+     </nav>
+    </header>
+    <main>
+    <section class="noticias">
+      <article>
+       <p>Lorem, <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Explicabo minima, numquam consequuntur sint laboriosam quis et sunt consequatur animi! Possimus quae repellat ducimus sapiente porro fuga officiis hic. Vel, eligendi.</p><aside>Jose da Silva</aside> 
+      </article>
+    </section>
+    <section class="esportes">
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, itaque. Modi fuga nulla, aliquid ducimus tenetur reiciendis voluptatibus repellendus incidunt ullam temporibus deleniti. Illo error laboriosam minus mollitia, incidunt a.</p><aside>Fulano</aside>
+        </article>
+
+    </section>
+    </main>
+    <footer>
+     desenvolvido por peposo
+    </footer>
+    
+</body>
+</html>
