@@ -49,6 +49,7 @@ section{
     padding-bottom: 10vh;
     font-size: 3.5vw;
     font-family: var(--fonte03);
+    line-height: 2em;
     
 }
 section.normal{
